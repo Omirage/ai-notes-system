@@ -95,7 +95,7 @@ export default function Home() {
             
             {note.aiSummary && (
               <div style={{ background: 'rgba(99, 102, 241, 0.1)', padding: '1rem', borderRadius: '8px', borderLeft: '4px solid var(--primary)' }}>
-                <strong style={{ display: 'block', fontSize: '0.8rem', color: var(--primary), marginBottom: '0.5rem' }}>RESUMEN IA</strong>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>RESUMEN IA</strong>
                 <p style={{ fontSize: '0.9rem', fontStyle: 'italic' }}>{note.aiSummary}</p>
               </div>
             )}
